@@ -1,3 +1,13 @@
+How to Use:
+1. Clone/Fork to your local machine
+2. Open Terminal/CMD/Bash and locate it to your project folder
+3. Run command composer install to add vendor folder
+4. Copy .env.example and rename it to .env
+5. Config the database in the .env file
+5. Run command php artisan key:generate to generate APP:KEY
+6. Run command php artisan migrate to make table in the database
+7. Run command php artisan serve
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
